@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.6 - 字元編碼簡介", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.7 - 使用 char 字元型別", "2.7 - 使用 char 字元型別\2.7 - 使用 char 字元型別.vcxproj", "{A2E3E24C-A3EB-474B-9C45-BA0FABB29CA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.8 - 怎麼對 char 型別做運算", "2.8 - 怎麼對 char 型別做運算\2.8 - 怎麼對 char 型別做運算.vcxproj", "{1D289063-82DB-4A0A-BF56-CBBFB3D78083}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.9 - 字元大小寫轉換練習", "2.9 - 字元大小寫轉換練習\2.9 - 字元大小寫轉換練習.vcxproj", "{6667C281-3167-4370-80A0-3CC8A441641A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +165,22 @@ Global
 		{A2E3E24C-A3EB-474B-9C45-BA0FABB29CA6}.Release|x64.Build.0 = Release|x64
 		{A2E3E24C-A3EB-474B-9C45-BA0FABB29CA6}.Release|x86.ActiveCfg = Release|Win32
 		{A2E3E24C-A3EB-474B-9C45-BA0FABB29CA6}.Release|x86.Build.0 = Release|Win32
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Debug|x64.ActiveCfg = Debug|x64
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Debug|x64.Build.0 = Debug|x64
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Debug|x86.Build.0 = Debug|Win32
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Release|x64.ActiveCfg = Release|x64
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Release|x64.Build.0 = Release|x64
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Release|x86.ActiveCfg = Release|Win32
+		{1D289063-82DB-4A0A-BF56-CBBFB3D78083}.Release|x86.Build.0 = Release|Win32
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Debug|x64.ActiveCfg = Debug|x64
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Debug|x64.Build.0 = Debug|x64
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Debug|x86.Build.0 = Debug|Win32
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Release|x64.ActiveCfg = Release|x64
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Release|x64.Build.0 = Release|x64
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Release|x86.ActiveCfg = Release|Win32
+		{6667C281-3167-4370-80A0-3CC8A441641A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
