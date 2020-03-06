@@ -71,6 +71,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.7 - 三角形種類判斷
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.8 - 三角形種類判斷的條件簡化", "4.8 - 三角形種類判斷的條件簡化\4.8 - 三角形種類判斷的條件簡化.vcxproj", "{CEA0D177-A44D-4FFB-8905-7B3FE6152386}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 - 對兩個變數求最大值 (使用 if 述句)", "5.1 - 對兩個變數求最大值 (使用 if 述句)\5.1 - 對兩個變數求最大值 (使用 if 述句).vcxproj", "{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2 - 對三個變數求最大值的練習 (使用 if 述句)", "5.2 - 對三個變數求最大值的練習 (使用 if 述句)\5.2 - 對三個變數求最大值的練習 (使用 if 述句).vcxproj", "{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3 - 對四個變數求最大值的練習 (使用 if 述句)", "5.3 - 對四個變數求最大值的練習 (使用 if 述句)\5.3 - 對四個變數求最大值的練習 (使用 if 述句).vcxproj", "{F0B0A022-F65A-4D06-9EB7-273A979C2378}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.4 - 對多個變數求最小值的練習 (使用 if 述句)", "5.4 - 對多個變數求最小值的練習 (使用 if 述句)\5.4 - 對多個變數求最小值的練習 (使用 if 述句).vcxproj", "{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -351,6 +359,38 @@ Global
 		{CEA0D177-A44D-4FFB-8905-7B3FE6152386}.Release|x64.Build.0 = Release|x64
 		{CEA0D177-A44D-4FFB-8905-7B3FE6152386}.Release|x86.ActiveCfg = Release|Win32
 		{CEA0D177-A44D-4FFB-8905-7B3FE6152386}.Release|x86.Build.0 = Release|Win32
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Debug|x64.ActiveCfg = Debug|x64
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Debug|x64.Build.0 = Debug|x64
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Debug|x86.Build.0 = Debug|Win32
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Release|x64.ActiveCfg = Release|x64
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Release|x64.Build.0 = Release|x64
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Release|x86.ActiveCfg = Release|Win32
+		{DA3E48B0-A6CA-4CD8-A91A-4436B148B62A}.Release|x86.Build.0 = Release|Win32
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Debug|x64.ActiveCfg = Debug|x64
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Debug|x64.Build.0 = Debug|x64
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Debug|x86.Build.0 = Debug|Win32
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Release|x64.ActiveCfg = Release|x64
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Release|x64.Build.0 = Release|x64
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Release|x86.ActiveCfg = Release|Win32
+		{64034707-EA6B-4D7D-94A6-7F61C7DC71F6}.Release|x86.Build.0 = Release|Win32
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Debug|x64.ActiveCfg = Debug|x64
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Debug|x64.Build.0 = Debug|x64
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Debug|x86.Build.0 = Debug|Win32
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Release|x64.ActiveCfg = Release|x64
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Release|x64.Build.0 = Release|x64
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Release|x86.ActiveCfg = Release|Win32
+		{F0B0A022-F65A-4D06-9EB7-273A979C2378}.Release|x86.Build.0 = Release|Win32
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Debug|x64.ActiveCfg = Debug|x64
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Debug|x64.Build.0 = Debug|x64
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Debug|x86.Build.0 = Debug|Win32
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Release|x64.ActiveCfg = Release|x64
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Release|x64.Build.0 = Release|x64
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Release|x86.ActiveCfg = Release|Win32
+		{E3C3A460-C8A7-42B0-BC6A-67B1A32AD2D2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
