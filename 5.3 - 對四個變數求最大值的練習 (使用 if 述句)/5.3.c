@@ -4,7 +4,7 @@ int main()
 {
 	int a, b, c, d,max;
 	printf("Please enter four integers:");
-	scanf("%d%d%d%d%d",&a,&b,&c,&d);
+	scanf("%d%d%d%d%",&a,&b,&c,&d);
 	
 	//…¢¿¼Œ‘·¨Ò»
 	if (a >= b && a >= c && a >= d) 
