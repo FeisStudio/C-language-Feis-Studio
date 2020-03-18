@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 - 對三個變數依照
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.4 - 用兩個變數的數值交換對三個變數做排序 [上] (使用 if 述句)", "6.4 - 用兩個變數的數值交換對三個變數做排序 [上] (使用 if 述句)\6.4 - 用兩個變數的數值交換對三個變數做排序 [上] (使用 if 述句).vcxproj", "{2BB166EC-20A3-407D-A3E9-DDE1205EF0D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 - 用兩個變數的數值交換對三個變數做排序 (使用 if 述句) [下]", "6.5 - 用兩個變數的數值交換對三個變數做排序 (使用 if 述句) [下]\6.5 - 用兩個變數的數值交換對三個變數做排序 (使用 if 述句) [下].vcxproj", "{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{2BB166EC-20A3-407D-A3E9-DDE1205EF0D9}.Release|x64.Build.0 = Release|x64
 		{2BB166EC-20A3-407D-A3E9-DDE1205EF0D9}.Release|x86.ActiveCfg = Release|Win32
 		{2BB166EC-20A3-407D-A3E9-DDE1205EF0D9}.Release|x86.Build.0 = Release|Win32
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Debug|x64.ActiveCfg = Debug|x64
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Debug|x64.Build.0 = Debug|x64
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Debug|x86.Build.0 = Debug|Win32
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Release|x64.ActiveCfg = Release|x64
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Release|x64.Build.0 = Release|x64
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Release|x86.ActiveCfg = Release|Win32
+		{B194A6BC-49C6-4946-A537-7EAE9EE1FF1A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
