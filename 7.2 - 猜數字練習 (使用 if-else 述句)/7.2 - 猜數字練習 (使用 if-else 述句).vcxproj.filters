@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6.5.c">
+    <ClCompile Include="7.2.c">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

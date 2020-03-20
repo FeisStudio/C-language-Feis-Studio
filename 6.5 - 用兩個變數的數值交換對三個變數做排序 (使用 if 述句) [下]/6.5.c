@@ -10,17 +10,17 @@ int main()
 	//參考寫法一
 	//將a,b,c中最小的數值換到變數a
 		//將a,b中最小的數值換到變數a
-	//	if (b < a) {
-	//		t = b; b = a; a = t;
-	//	}
-	//	//將a,c中較小的數值換到變數a	
-	//	if (c < a) {
-	//		t = c; c = a; a = t;
-	//	}
-	////將b,c中最小的數值換到變數b
-	//if (c < b) {
-	//	t = c; c = b; b = t;
-	//}
+		if (b < a) {
+			t = b; b = a; a = t;
+		}
+		//將a,c中較小的數值換到變數a	
+		if (c < a) {
+			t = c; c = a; a = t;
+		}
+	//將b,c中最小的數值換到變數b
+	if (c < b) {
+		t = c; c = b; b = t;
+	}
 
 	//參考寫法二
 	//將a,b,c中大的數值換到變數c
