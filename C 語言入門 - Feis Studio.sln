@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.7 - 猜數字要怎麼能
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - 有條件的重複執行 (while 述句)", "8 - 有條件的重複執行 (while 述句)\8 - 有條件的重複執行 (while 述句).vcxproj", "{D1C1CCE1-BC4E-4363-9A7B-84BA51CF7A5B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.1 - 猜數字練習 (使用 while 述句)", "8.1 - 猜數字練習 (使用 while 述句)\8.1 - 猜數字練習 (使用 while 述句).vcxproj", "{11080666-987F-48AD-985B-4420BBE682F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -561,6 +563,14 @@ Global
 		{D1C1CCE1-BC4E-4363-9A7B-84BA51CF7A5B}.Release|x64.Build.0 = Release|x64
 		{D1C1CCE1-BC4E-4363-9A7B-84BA51CF7A5B}.Release|x86.ActiveCfg = Release|Win32
 		{D1C1CCE1-BC4E-4363-9A7B-84BA51CF7A5B}.Release|x86.Build.0 = Release|Win32
+		{11080666-987F-48AD-985B-4420BBE682F7}.Debug|x64.ActiveCfg = Debug|x64
+		{11080666-987F-48AD-985B-4420BBE682F7}.Debug|x64.Build.0 = Debug|x64
+		{11080666-987F-48AD-985B-4420BBE682F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{11080666-987F-48AD-985B-4420BBE682F7}.Debug|x86.Build.0 = Debug|Win32
+		{11080666-987F-48AD-985B-4420BBE682F7}.Release|x64.ActiveCfg = Release|x64
+		{11080666-987F-48AD-985B-4420BBE682F7}.Release|x64.Build.0 = Release|x64
+		{11080666-987F-48AD-985B-4420BBE682F7}.Release|x86.ActiveCfg = Release|Win32
+		{11080666-987F-48AD-985B-4420BBE682F7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
