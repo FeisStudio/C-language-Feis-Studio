@@ -125,6 +125,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.5 - 數數字的練習 (�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.6 - 至少做一次的重複執行 (do-while 述句)", "8.6 - 至少做一次的重複執行 (do-while 述句)\8.6 - 至少做一次的重複執行 (do-while 述句).vcxproj", "{DF15F8E2-00BB-4C90-95FB-17FA83BC9768}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.7 - 複合賦值與遞增遞減運算", "8.7 - 複合賦值與遞增遞減運算\8.7 - 複合賦值與遞增遞減運算.vcxproj", "{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.8 - 消費金額計算的練習 (使用 switch 述句)", "8.8 - 消費金額計算的練習 (使用 switch 述句)\8.8 - 消費金額計算的練習 (使用 switch 述句).vcxproj", "{D5CFF3CE-B16B-455F-8495-3244D9105A30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -621,6 +625,22 @@ Global
 		{DF15F8E2-00BB-4C90-95FB-17FA83BC9768}.Release|x64.Build.0 = Release|x64
 		{DF15F8E2-00BB-4C90-95FB-17FA83BC9768}.Release|x86.ActiveCfg = Release|Win32
 		{DF15F8E2-00BB-4C90-95FB-17FA83BC9768}.Release|x86.Build.0 = Release|Win32
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Debug|x64.ActiveCfg = Debug|x64
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Debug|x64.Build.0 = Debug|x64
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Debug|x86.Build.0 = Debug|Win32
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Release|x64.ActiveCfg = Release|x64
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Release|x64.Build.0 = Release|x64
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Release|x86.ActiveCfg = Release|Win32
+		{72A8DCC3-2D3B-4681-8DF1-7F83931BAAA0}.Release|x86.Build.0 = Release|Win32
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Debug|x64.ActiveCfg = Debug|x64
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Debug|x64.Build.0 = Debug|x64
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Debug|x86.Build.0 = Debug|Win32
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Release|x64.ActiveCfg = Release|x64
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Release|x64.Build.0 = Release|x64
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Release|x86.ActiveCfg = Release|Win32
+		{D5CFF3CE-B16B-455F-8495-3244D9105A30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
