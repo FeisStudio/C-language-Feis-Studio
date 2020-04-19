@@ -11,7 +11,6 @@ int main() {
 		case 3: total += 83; break;
 		case 4: total += 89; break;
 		case 5: total += 71; break;
-		default:printf("Error: No corresponding id");
 		}
 	} while (id != 0);
 
