@@ -1,11 +1,12 @@
 #pragma warning(disable:4996)
 #include<stdio.h>
-int main() {
-	int n;
+int main() 
+{
+	int n, i;
 	printf("Please enter a integer:");
-	scanf("%d",&n);
-
-	printf("%d\n", (1 + n) * n / 2);
-
+	scanf("%d", &n);
+	for (i = 1; i <= n;i++) {
+		printf("*");
+	}
 	return 0;
 }
