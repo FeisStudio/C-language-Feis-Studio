@@ -6,7 +6,7 @@ int main()
 	printf("Please enter three integers:");
 	scanf("%d%d%d", &a, &b, &c);
 	
-	//参考写法一
+	//叄考寫法一
 	if (a >= b && a >= c)
 	{
 		max = a;
@@ -20,7 +20,7 @@ int main()
 		max = c;
 	}
 	
-	//参考写法二
+	//叄考寫法二
 	max = a;
 	if (b > max)
 	{

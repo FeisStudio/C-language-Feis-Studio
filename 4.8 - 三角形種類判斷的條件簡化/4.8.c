@@ -10,7 +10,7 @@ int main()
 		(side3 + side2 > side1&& side3 - side2 < side1))
 
 	{
-		//如果side1<=side2<=side3,从小到大
+		//如果side1<=side2<=side3,從小到大
 
 		//正三角形
 		if (side1 == side3)

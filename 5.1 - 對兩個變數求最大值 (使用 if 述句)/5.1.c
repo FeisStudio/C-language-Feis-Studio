@@ -8,7 +8,7 @@ int main()
 	printf("Please enter the second integer:");
 	scanf("%d", &b);
 	
-	//参考写法一
+	//叄考寫法一
 	if (a >= b) 
 	{
 		max = a;
@@ -18,14 +18,14 @@ int main()
 		max = b;
 	}
 
-	//参考写法二
+	//叄考寫法二
 	max = a;
 	if (max < b)
 	{
 		max = b;
 	}
 
-	//参考写法三
+	//叄考寫法三
 	int a, max;
 	printf("Please enter the first integer:");
 	scanf("%d", &a);
