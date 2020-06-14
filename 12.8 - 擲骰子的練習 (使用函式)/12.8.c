@@ -4,31 +4,32 @@
 #include<time.h>
 
 //叄考寫法一
-//int main()
-//{
-//	srand(time(0));
-//	int i;
-//	for (i = 1; i <= 6; i++) {
-//		int dice ;
-//		do {
-//			dice = rand();
-//		} while (dice < 1 || dice>6);
-//		printf("%d\n", dice);
-//	}
-//	return 0;
-//}
+int main()
+{
+	srand(time(0));
+	int i;
+	for (i = 1; i <= 6; i++) {
+		int dice ;
+		do {
+			dice = rand();
+		} while (dice < 1 || dice>6);
+		printf("%d\n", dice);
+	}
+	return 0;
+}
 //叄考寫法二
-//int main()
-//{
-//	srand(time(0));
-//	int i;
-//	for (i = 1; i <= 6; i++) {
-//		int dice = rand() % 6+1;
-//		printf("%d\n", dice);
-//	}
-//	return 0;
-//}
-//
+int main()
+{
+	srand(time(0));
+	int i;
+	for (i = 1; i <= 6; i++) {
+		int dice = rand() % 6+1;
+		//0~5%6=(0~5)+1=1~6
+		printf("%d\n", dice);
+	}
+	return 0;
+}
+
 
 //用户輸入猜數字
 int main()
