@@ -215,6 +215,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.3 - 循序存取陣列�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.4 - 隨機存取陣列元素", "14.4 - 隨機存取陣列元素\14.4 - 隨機存取陣列元素.vcxproj", "{7A446184-2D9A-470D-A4EB-7BF8645238D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.5 - 兩顆骰子點數和出現次數統計的練習 (使用陣列)", "14.5 - 兩顆骰子點數和出現次數統計的練習 (使用陣列)\14.5 - 兩顆骰子點數和出現次數統計的練習 (使用陣列).vcxproj", "{A1091829-3B48-47F7-8EDB-B06D964E9625}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.1 -查詢數字的練習 (使用陣列)", "15.1 -查詢數字的練習 (使用陣列)\15.1 -查詢數字的練習 (使用陣列).vcxproj", "{5FA05E78-C85A-4D96-9145-46408DEF9FF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.2 - 查詢範圍內數字的練習 (使用陣列)", "15.2 - 查詢範圍內數字的練習 (使用陣列)\15.2 - 查詢範圍內數字的練習 (使用陣列).vcxproj", "{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.3 - 查詢上限內最大數字的練習 (使用陣列)", "15.3 - 查詢上限內最大數字的練習 (使用陣列)\15.3 - 查詢上限內最大數字的練習 (使用陣列).vcxproj", "{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1071,6 +1079,38 @@ Global
 		{7A446184-2D9A-470D-A4EB-7BF8645238D7}.Release|x64.Build.0 = Release|x64
 		{7A446184-2D9A-470D-A4EB-7BF8645238D7}.Release|x86.ActiveCfg = Release|Win32
 		{7A446184-2D9A-470D-A4EB-7BF8645238D7}.Release|x86.Build.0 = Release|Win32
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Debug|x64.ActiveCfg = Debug|x64
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Debug|x64.Build.0 = Debug|x64
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Debug|x86.Build.0 = Debug|Win32
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Release|x64.ActiveCfg = Release|x64
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Release|x64.Build.0 = Release|x64
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Release|x86.ActiveCfg = Release|Win32
+		{A1091829-3B48-47F7-8EDB-B06D964E9625}.Release|x86.Build.0 = Release|Win32
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Debug|x64.ActiveCfg = Debug|x64
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Debug|x64.Build.0 = Debug|x64
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Debug|x86.Build.0 = Debug|Win32
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Release|x64.ActiveCfg = Release|x64
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Release|x64.Build.0 = Release|x64
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Release|x86.ActiveCfg = Release|Win32
+		{5FA05E78-C85A-4D96-9145-46408DEF9FF7}.Release|x86.Build.0 = Release|Win32
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Debug|x64.ActiveCfg = Debug|x64
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Debug|x64.Build.0 = Debug|x64
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Debug|x86.ActiveCfg = Debug|Win32
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Debug|x86.Build.0 = Debug|Win32
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Release|x64.ActiveCfg = Release|x64
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Release|x64.Build.0 = Release|x64
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Release|x86.ActiveCfg = Release|Win32
+		{68D266F8-5627-4F4B-BFA3-7CEE67F0EDAB}.Release|x86.Build.0 = Release|Win32
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Debug|x64.ActiveCfg = Debug|x64
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Debug|x64.Build.0 = Debug|x64
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Debug|x86.Build.0 = Debug|Win32
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Release|x64.ActiveCfg = Release|x64
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Release|x64.Build.0 = Release|x64
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Release|x86.ActiveCfg = Release|Win32
+		{D99B4D6F-0CCE-4BB0-88AA-FA4AECC848B1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
