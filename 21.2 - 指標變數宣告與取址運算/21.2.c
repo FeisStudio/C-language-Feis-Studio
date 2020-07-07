@@ -11,8 +11,8 @@
 //	變數依照資料型別會佔據一定的記憶體空間。我們可以利用取
 //   取值運算子(&)去取得變數開頭的記憶體位址
 //	
-//	int count = 9;
-//	int *countAddr = &count;
+//	int count = 9;	//int count=9等同於(int *)2293620
+//	int *countAddr = &count;//int *countAddr等同於(int **)2293624
 //
 //
 //	表示式	資料型別		值	
