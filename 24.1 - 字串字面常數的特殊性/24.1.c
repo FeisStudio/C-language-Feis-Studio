@@ -11,7 +11,7 @@ int main() {
 	strB[0] = 'T';	// (X) 未定義行爲	只能讀取,不能寫
 
 	strA = "Test";	// (X) 編譯失敗		陣列之間是不可以直接賦值的
-	strB = "Test";	// (O) 
+	strB = "Test";	// (O)  
 
 
 	return 0;
