@@ -15,9 +15,9 @@ int main() {
 	strA = strB;	// (char [])=(char *)			(X)	陣列不能直接被賦值
 	strA = strC;	// (char [])=(const char *)		(X)	陣列不能直接被賦值
 	strB = strA;	// (char *)=(char [])			(O)	字元陣列存到字元指標	字元陣列可以隱性轉成字元指標
-	strB = strC;	// (char *)=(const char *)		(X)	唯讀變量(字元)不能修改
-	strC = strA;	// (const char *)=(char [])		(O)
-	strC = strB;	// (const char *)=(char *)		(O)
+	strB = strC;	// (char *)=(const char *)		(X)	唯讀變量(字元)不能修改爲可讀可寫
+	strC = strA;	// (const char *)=(char [])		(O)	strA轉成字元指標，再轉爲const char* 
+	strC = strB;	// (const char *)=(char *)		(O)	可讀可寫轉爲可讀
 
 	return 0;
 }
