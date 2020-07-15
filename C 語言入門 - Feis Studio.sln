@@ -329,6 +329,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25.3 - 在函式間使用�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.1 - 指標間轉型的限制", "26.1 - 指標間轉型的限制\26.1 - 指標間轉型的限制.vcxproj", "{44EB015C-553F-4C8D-BE00-120E2D3C26A1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.2 - 合法的隱性轉型", "26.2 - 合法的隱性轉型\26.2 - 合法的隱性轉型.vcxproj", "{E798F390-17C2-4E88-AE90-8C47C784FFA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.3 - 指標與整數間的轉型", "26.3 - 指標與整數間的轉型\26.3 - 指標與整數間的轉型.vcxproj", "{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1641,6 +1645,22 @@ Global
 		{44EB015C-553F-4C8D-BE00-120E2D3C26A1}.Release|x64.Build.0 = Release|x64
 		{44EB015C-553F-4C8D-BE00-120E2D3C26A1}.Release|x86.ActiveCfg = Release|Win32
 		{44EB015C-553F-4C8D-BE00-120E2D3C26A1}.Release|x86.Build.0 = Release|Win32
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Debug|x64.ActiveCfg = Debug|x64
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Debug|x64.Build.0 = Debug|x64
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Debug|x86.ActiveCfg = Debug|Win32
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Debug|x86.Build.0 = Debug|Win32
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Release|x64.ActiveCfg = Release|x64
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Release|x64.Build.0 = Release|x64
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Release|x86.ActiveCfg = Release|Win32
+		{E798F390-17C2-4E88-AE90-8C47C784FFA3}.Release|x86.Build.0 = Release|Win32
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Debug|x64.ActiveCfg = Debug|x64
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Debug|x64.Build.0 = Debug|x64
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Debug|x86.Build.0 = Debug|Win32
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Release|x64.ActiveCfg = Release|x64
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Release|x64.Build.0 = Release|x64
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Release|x86.ActiveCfg = Release|Win32
+		{90C523AB-C1CE-4DB7-8D91-5223C3E558CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
