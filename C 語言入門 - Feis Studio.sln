@@ -335,6 +335,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.3 - 指標與整數間�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.4 - 指標與指標間的強制轉型", "26.4 - 指標與指標間的強制轉型\26.4 - 指標與指標間的強制轉型.vcxproj", "{520AB4AA-2010-4174-85B4-DC1764C95F7A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列)", "28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列)\28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列).vcxproj", "{087DD687-D375-4B09-AF27-EDB26EF9DDF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1671,6 +1673,14 @@ Global
 		{520AB4AA-2010-4174-85B4-DC1764C95F7A}.Release|x64.Build.0 = Release|x64
 		{520AB4AA-2010-4174-85B4-DC1764C95F7A}.Release|x86.ActiveCfg = Release|Win32
 		{520AB4AA-2010-4174-85B4-DC1764C95F7A}.Release|x86.Build.0 = Release|Win32
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Debug|x64.ActiveCfg = Debug|x64
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Debug|x64.Build.0 = Debug|x64
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Debug|x86.Build.0 = Debug|Win32
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x64.ActiveCfg = Release|x64
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x64.Build.0 = Release|x64
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x86.ActiveCfg = Release|Win32
+		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
