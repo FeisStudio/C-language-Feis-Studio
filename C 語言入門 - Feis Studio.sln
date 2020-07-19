@@ -337,6 +337,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.4 - 指標與指標間�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列)", "28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列)\28.1 - 輸入任意個整數後一起印出的練習 (使用固定大小陣列).vcxproj", "{087DD687-D375-4B09-AF27-EDB26EF9DDF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28.2 - 怎麼讓陣列變大", "28.2 - 怎麼讓陣列變大\28.2 - 怎麼讓陣列變大.vcxproj", "{A90818F5-1430-4339-8CCA-FFD213D4F2AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28.3 - 用同一個指標指向不同的陣列", "28.3 - 用同一個指標指向不同的陣列\28.3 - 用同一個指標指向不同的陣列.vcxproj", "{10D0858F-8108-4700-93C6-7650C646B803}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28.4 - 變數的生命週期", "28.4 - 變數的生命週期\28.4 - 變數的生命週期.vcxproj", "{13F65BB5-0BEB-40C3-98A4-959745E511C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1681,6 +1687,30 @@ Global
 		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x64.Build.0 = Release|x64
 		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x86.ActiveCfg = Release|Win32
 		{087DD687-D375-4B09-AF27-EDB26EF9DDF0}.Release|x86.Build.0 = Release|Win32
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Debug|x64.ActiveCfg = Debug|x64
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Debug|x64.Build.0 = Debug|x64
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Debug|x86.Build.0 = Debug|Win32
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Release|x64.ActiveCfg = Release|x64
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Release|x64.Build.0 = Release|x64
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Release|x86.ActiveCfg = Release|Win32
+		{A90818F5-1430-4339-8CCA-FFD213D4F2AA}.Release|x86.Build.0 = Release|Win32
+		{10D0858F-8108-4700-93C6-7650C646B803}.Debug|x64.ActiveCfg = Debug|x64
+		{10D0858F-8108-4700-93C6-7650C646B803}.Debug|x64.Build.0 = Debug|x64
+		{10D0858F-8108-4700-93C6-7650C646B803}.Debug|x86.ActiveCfg = Debug|Win32
+		{10D0858F-8108-4700-93C6-7650C646B803}.Debug|x86.Build.0 = Debug|Win32
+		{10D0858F-8108-4700-93C6-7650C646B803}.Release|x64.ActiveCfg = Release|x64
+		{10D0858F-8108-4700-93C6-7650C646B803}.Release|x64.Build.0 = Release|x64
+		{10D0858F-8108-4700-93C6-7650C646B803}.Release|x86.ActiveCfg = Release|Win32
+		{10D0858F-8108-4700-93C6-7650C646B803}.Release|x86.Build.0 = Release|Win32
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Debug|x64.ActiveCfg = Debug|x64
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Debug|x64.Build.0 = Debug|x64
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Debug|x86.Build.0 = Debug|Win32
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Release|x64.ActiveCfg = Release|x64
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Release|x64.Build.0 = Release|x64
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Release|x86.ActiveCfg = Release|Win32
+		{13F65BB5-0BEB-40C3-98A4-959745E511C5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
