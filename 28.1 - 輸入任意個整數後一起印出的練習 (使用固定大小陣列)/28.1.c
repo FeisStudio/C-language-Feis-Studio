@@ -9,7 +9,7 @@ int main() {
 	while (length < 10) {
 		int input;
 		scanf("%d", &input);	//從鍵盤輸入數字
-		if (input == 0) {		//如果輸入數字爲0則結束
+		if (input == 0) {		//如果輸入數字爲 0則結束
 			break;
 		}
 		numbers[length] = input;	//將輸入數字加在最後面

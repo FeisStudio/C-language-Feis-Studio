@@ -26,25 +26,22 @@ int main() {
 
 	while (1) {
 		int input;
-		scanf("%d", &input);	//從鍵盤輸入數字
-		if (input == 0) {		//如果輸入數字爲0則結束
+		scanf("%d", &input);			//從鍵盤輸入數字
+		if (input == 0) {				//如果輸入數字爲 0  則結束
 			break;
 		}
-
-		{
-			int larger[length + 1];		//產生一個大一個的新陣列
-		}
+		int larger[length + 1];		//產生一個大一個的新陣列
 		for (int i = 0; i < length; i++) {
 			larger[i] = numbers[i];		//複製舊陣列到新陣列
 		}
-		numbers = larger;			//將 numbers 設爲剛產生的新陣列
+		numbers = larger;				//將 numbers 設爲剛產生的新陣列
 
-		numbers[length] = input;	//將輸入數字加在最後面
-		length++;					//將輸入的數字個數加1
+		numbers[length] = input;		//將輸入數字加在最後面
+		length++;						//將輸入的數字個數加1
 	}
 
 	printf("Numbers:");
-	for (int i = 0; i < length; i++) {
+	for (int i = 0; i < length; i++) {	//數每個輸入的數字
 		printf("%-2d", numbers[i]);
 	}
 	printf("\n");

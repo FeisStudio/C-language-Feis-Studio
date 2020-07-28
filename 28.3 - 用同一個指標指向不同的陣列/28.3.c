@@ -4,19 +4,19 @@
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————
 int main() {
-	int *numbers;		//儲存輸入的數字
+	int *numbers;			//儲存輸入的數字
 	int length = 0;			//目前已經輸入的數字個數
 
 	while (1) {
 		int input;
-		scanf("%d", &input);	//從鍵盤輸入數字
-		if (input == 0) {		//如果輸入數字爲0則結束
+		scanf("%d", &input);		//從鍵盤輸入數字
+		if (input == 0) {			//如果輸入數字爲 0 則結束
 			break;
 		}
 
 		int larger[length + 1];		//產生一個大一個的新陣列
 		for (int i = 0; i < length; i++) {
-			larger[i] = numbers[i];		//複製舊陣列到新陣列
+			larger[i] = numbers[i];	//複製舊陣列到新陣列
 		}
 		numbers = larger;			//將 numbers 設爲剛產生的新陣列
 
@@ -38,7 +38,7 @@ int main() {
 //	int length = 0;
 //
 //	int larger1[1] = { 1 };
-//	numbers = larger1;	//numbers=larger[0]
+//	numbers = larger1;				//numbers=larger[0]
 //	length++;
 //	for (int i = 0; i < length; i++) {
 //		printf("%d ", numbers[i]);	//等同於 printf("%d ",larger1[i]);
@@ -46,7 +46,7 @@ int main() {
 //	printf("\n");
 //
 //	int larger2[2] = { 2,3 };
-//	numbers = larger2;	//numbers=larger[0]
+//	numbers = larger2;				//numbers=larger[0]
 //	length++;
 //	for (int i = 0; i < length; i++) {
 //		printf("%d ", numbers[i]);	//等同於 printf("%d ",larger2[i]);
